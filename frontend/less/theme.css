@@ -1,0 +1,107 @@
+@charset "UTF-8";
+:root {
+    --maincolor: #009c86;
+}
+a,
+a:hover,
+.btn,
+.btn .icon,
+.btn.mc:hover,
+.btn.mc:hover .icon.icon-arrow-right,
+.rating .stars .icon,
+.inner-width,
+header nav li a.active,
+header nav li a:hover,
+.header-image .content .footer .phone a,
+.card .title .icon,
+.card .snippet .more,
+.services .item .price,
+header details summary:hover,
+.faq details summary.hovered,
+footer .links li a:hover{
+    color: var(--maincolor);
+}
+a:before{
+    background: var(--maincolor);
+}
+ul li:before,
+.mc-bg{       
+    background: var(--maincolor);
+ }
+header nav li a.active:after,
+.carousel .list .item .image .promo,
+.faq details.details_shim_open summary,
+.faq details[open]>summary,
+header .language summary:hover:before,
+header details.more summary:hover .burger span{
+    background-color: var(--maincolor);
+} 
+
+
+header nav li a.active.reset-hover{
+  color: var(--maincolor);
+}
+header nav li a.active.reset-hover.reset-hover:after,
+header nav li a.active.reset-hover:after,
+header nav li a:after{
+  background-color: var(--maincolor);
+}
+   
+.btn,
+.btn:hover{
+    border: 2px solid var(--maincolor);
+}
+.btn{    
+
+
+
+    background: linear-gradient(to right,var(--maincolor) 50%,rgba(0,0,0,0) 50%); 
+    background-size: 210% 100%;
+    background-position: right bottom;
+}
+.btn:hover{
+    background-position: left bottom;    
+}
+.btn.mc{
+
+
+
+    background: linear-gradient(to right,rgba(0,0,0,0) 50%,var(--maincolor) 50%);       
+    background-position: right bottom;
+    background-size: 210% 100%;
+}  
+.btn.mc:hover {
+    background-color: rgba(0,0,0,0);
+    background-position: left top;
+}  
+header details .dropdown-menu a.active, 
+.mobile-menu li a.on{
+    border-left: 4px solid var(--maincolor);    
+}
+    
+.carousel .carousel-arrow:not([disabled]):hover,
+.card .snippet:hover{
+    border-color: var(--maincolor)
+} 
+.header-image .content .footer .phone a:hover:before{
+    opacity: 1;
+}   
+.carousel .carousel-arrow svg,
+.faq details summary.hovered .icons svg {
+    fill: var(--maincolor);
+}    
+    
+.gm-style .gm-style-iw-t::after {
+    background: var(--maincolor)!important;
+}    
+@media (max-width: 767px) {
+    .btn,.btn:hover,
+    .btn:hover .icon.icon-arrow-right,
+    .btn .icon{ 
+        color: var(--maincolor)
+    }
+    .btn.mc,
+    .btn.mc:hover {
+        background-color: var(--maincolor)
+    }
+}
